@@ -1,0 +1,14 @@
+        .data
+        .org    0x140
+vector: .word16 1,2,3,4,5,6,7,8
+cero:   .word16 0
+
+        .text
+        daddi   R1,R0,0
+etq:    lh      R2,vector(R1)
+        beqz    R2,fin
+        dmul    R2,R2,R2
+        sh      R2,vector(R1)
+        daddi   R1,R1,2
+        j       etq
+fin:    halt

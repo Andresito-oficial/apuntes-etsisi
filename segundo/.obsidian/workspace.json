@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "3a697edaff442de2",
+    "type": "split",
+    "children": [
+      {
+        "id": "645fa089065373c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63d46199da9720c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "apuntes BD/transparencias/Modelo relacional.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Modelo relacional"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86a912ae7e15b059",
+    "type": "split",
+    "children": [
+      {
+        "id": "33a873296caa6016",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c34d8abcbfab4058",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8c71c3f1103c7ce0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a8a1c8e6270b5b6a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "37bbae3e3738a752",
+    "type": "split",
+    "children": [
+      {
+        "id": "646cbfae72d59686",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c45db3e90c0f937b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "apuntes BD/transparencias/Modelado conceptual de datos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Modelado conceptual de datos"
+            }
+          },
+          {
+            "id": "c09b060028f373cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "apuntes BD/transparencias/Modelado conceptual de datos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Modelado conceptual de datos"
+            }
+          },
+          {
+            "id": "5880f507fe05cf1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0b085269c8241835",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "apuntes BD/transparencias/Modelado conceptual de datos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Modelado conceptual de datos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "63d46199da9720c3",
+  "lastOpenFiles": [
+    "apuntes BD/Ejemplos.kra",
+    "apuntes BD/examenes/bbdd_2023_ordinaria.kra",
+    "apuntes BD/examenes/bbdd_2023_ordinaria.pdf",
+    "apuntes BD/transparencias/Modelado conceptual de datos.md",
+    "apuntes BD/transparencias/img/t2/martin-relacion-sin-nombre.png",
+    "apuntes BD/transparencias/img/t2/martin-relacion-nm-con-atributos.png",
+    "apuntes BD/transparencias/img/t2/martin-relacion-n-aria.png",
+    "apuntes BD/transparencias/img/t2/martin-relacion-con-nombre.png",
+    "apuntes BD/transparencias/img/t2/martin-relacion-con-atributos.png",
+    "apuntes BD/transparencias/img/t2/martin-relacion-asociativa.png",
+    "apuntes BD/transparencias/img/t2/martin-entidad.png",
+    "apuntes BD/transparencias/img/t2/martin-entidad-debil.png",
+    "apuntes BD/transparencias/img/t2/martin-entidad-debil-identificacion.png",
+    "apuntes BD/transparencias/img/t2/martin-cardinalidades.png",
+    "apuntes BD/examenes/figs/bbdd-cdia-2024-2025-ordinaria/bbdd-gcdia-2024-2025-ordinaria-tablas.pdf",
+    "apuntes BD/examenes/figs/bbdd-cdia-2024-2025-ordinaria/bbdd-gcdia-2024-2025-ordinaria-er.pdf",
+    "apuntes BD/examenes/figs/bbdd-cdia-2024-2025-ordinaria",
+    "apuntes BD/examenes/figs/bbdd-cdia-2023-2024-ordinaria",
+    "apuntes BD/examenes/figs/bbdd-cdia-2023-2024-extraordinaria/2024-extraordinaria-gcdia-mer.pdf",
+    "apuntes BD/examenes/figs/bbdd-cdia-2023-2024-extraordinaria",
+    "apuntes BD/examenes/figs/bbdd-2024-2025-ordinaria/MER.pdf",
+    "apuntes BD/examenes/figs/bbdd-2024-2025-ordinaria",
+    "apuntes BD/material-docente/transparencias/Seguridad en bases de datos.md",
+    "apuntes BD/material-docente/transparencias/Programacion contra bases de datos en python.md",
+    "apuntes BD/material-docente/transparencias/Programacion contra bases de datos en Java.md",
+    "apuntes BD/material-docente/transparencias/Presentacion-gcdia.md",
+    "apuntes BD/material-docente/transparencias/Presentacion-25-26-grados-comunes.md",
+    "apuntes BD/material-docente/transparencias/Presentacion-24-25-grados-comunes.md",
+    "apuntes BD/material-docente/transparencias/Presentacion-23-24-grados-comunes.md",
+    "apuntes BD/material-docente/transparencias/Modelo relacional.md",
+    "apuntes BD/material-docente/transparencias/Modelado conceptual de datos.md",
+    "apuntes BD/material-docente/transparencias/Introduccion a las bases de datos.md",
+    "apuntes BD/material-docente/transparencias/Ficheros.md",
+    "apuntes BD/material-docente/transparencias/Entorno_SQL.md",
+    "apuntes BD/material-docente/transparencias/El lenguaje SQL.md",
+    "apuntes BD/material-docente/README.md"
+  ]
+}

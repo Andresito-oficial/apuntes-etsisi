@@ -1,0 +1,31 @@
+En la clase "Jugada" he introducido dentro de ella el enumerado "Color" al ser utilizado exclusívamente en esa clase, por lo tanto, no era necesario que el enumerado fuera visible desde otras clases.
+
+En el método "visualizar()" de la clase "Jugada" se ha cambiado el bucle "for" por un "enhanced for" (que es lo mismo que un bucle "for each") para simplificar la función,
+ya que se garantiza que el bucle recorre entero el Array de fichas de la jugada.
+
+Se ha creado un método "toString()" en la clase "Tablero" para facilitar su guardado en un fichero de texto cuando se ejecuta el método "guardarPartida()" de la clase "MasterMind".
+En el método "toString()" de la clase "Tablero" se ha empleado un "StringBuilder",
+ya que resultaba más apropiado para la tarea al tratarse de un método que construye una cadena de caracteres a partir de los valores de dos arrays.
+
+Para comprobar la jugada introducida por el usuario y determinar los "aciertos" y "descolocados" he empleado el siguiente algoritmo:
+
+1º Se compara cada ficha de la jugada oculta con la ficha de la misma posición en la jugada introducida por el usuario. De esta manera se determina cuántas fichas están colocadas ("colocados").
+
+2º Se recorren la jugada oculta y la jugada del jugador, y se contabilizan cuántas fichas de cada color hay en cada jugada en sendos Arrays de contadores.
+El Array "cont1[]" almacena el número de fichas de cada color en la jugada del usuario, y el Array "cont2[]" almacena el número de fichas de cada color en la jugada oculta.
+En ambos Arrays, la cantidad de fichas de cada cada color se almacena en la posición de ese color en el enumerado "Color".
+
+3º Puesto que el número de fichas de cada color acertadas por el jugador nunca puede ser mayor que el número de fichas de ese color en la jugada oculta,
+entonces see calcula el número total de fichas acertadas de cada color como el mínimo de "cont1[]" y "cont2[]" para cada color.
+
+Por ejemplo, si en la jugada oculta hay 2 fichas de color Púrpura y el jugador dice que hay 4 fichas de color Púrpura, entonces el jugador ha acertado 2 fichas de color Púrpura.
+En otro ejemplo, si el jugador dice que hay una (1) ficha de color Verde y en la jugada oculta hay 3 fichas Verdes, entonces el jugador ha acertado 1 ficha de color Verde.
+
+Se contabiliza el número total de fichas acertadas ("cont") como el sumatorio del número total de fichas acertadas de cada color.
+
+
+4º Se calcula el número de "descolocados" restando el número de fichas colocadas ("colocados") al número total de fichas acertadas ("cont").
+
+5º Finalmente, se generan la pistas correspondientes a la jugada empleando el constructor de la clase "Pistas".
+Este algoritmo de comprobación es mejor que el propuesto en el enunciado de la praćtica ya que el que he propuesto tiene un desarrollo de tiempo lineal (se usa un solo bucle),
+mientras que el propuesto en el enunciado tiene un desarrollo de tiempo cuadrático (se usa un doble bucle anidado).

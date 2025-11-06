@@ -1,0 +1,11 @@
+dependencias Raw: 1 (dependencia de r1) + 1 (dependencia de r3) + 1 (dependencia de r3) + 1 (dependencia de r1) 
+RAW en bnez : +2 (1ª exec) + 2 + 2 + 2 + 2 +2 + 2 = 14
+abots: 1 + 1 + 1 + 1 +1 +1 +1 
+
+98 ciclos
+
+2.5 GHz = 2.5 G ciclos / 1 s = 2.5 * 10^9 ciclos / 1 s
+
+98 ciclos / 2.5 * 10^9 ciclos / 1 s = 39.2 * 10^-9 s = 39.2 ps
+
+consume bnez:  6 * (1+1+1+1+1+1+1) = 6*7= 42
