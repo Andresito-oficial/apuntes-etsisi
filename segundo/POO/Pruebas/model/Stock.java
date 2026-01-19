@@ -1,10 +1,10 @@
 package model;
 
 public class Stock {
-    privatefinal String symbol;
-    privatefinal String companyName;
-    privatefinal double price;
-    privatefinal double change;
+    private final String symbol;
+    private final String companyName;
+    private final double price;
+    private final double change;
 
     public Stock(String symbol, String companyName, double price, double change) {
         this.symbol = symbol;
@@ -13,19 +13,19 @@ public class Stock {
         this.change = change;
     }
 
-    publicString getSymbol() {
+    public String getSymbol() {
         return symbol;
     }
 
-    publicString getCompanyName() {
-        returncompanyName;
+    public String getCompanyName() {
+        return companyName;
     }
 
-    publicdouble getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    publicdouble getChange() {
+    public double getChange() {
         return change;
     }
 }

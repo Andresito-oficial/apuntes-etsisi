@@ -6,20 +6,20 @@ import view.StockConsoleView;
 
 public class StockController {
 
-    privatefinal StockRepository repo;
-    privatefinal StockConsoleView view;
+    private final StockRepository repo;
+    private final StockConsoleView view;
 
-    publicStockController(StockRepository repo, StockConsoleView view) {
+    public StockController(StockRepository repo, StockConsoleView view) {
         this.repo = repo;
         this.view = view;
     }
 
-    publicvoid start() {
+    public void start() {
         String symbol = view.askSymbol();   
         searchStock(symbol);
     }
 
-    privatevoid searchStock(String symbol) {
+    private void searchStock(String symbol) {
         Stock stock = repo.findBySymbol(symbol);
 
         if(stock != null) {

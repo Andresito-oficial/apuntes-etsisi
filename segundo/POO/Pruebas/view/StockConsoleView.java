@@ -6,14 +6,14 @@ import java.util.Scanner;
 
 public class StockConsoleView {
 
-    privatefinal Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner = new Scanner(System.in);
 
-    publicString askSymbol() {
+    public String askSymbol() {
         System.out.print("Introduce el símbolo de la acción: ");
-        returnscanner.nextLine();
+        return scanner.nextLine();
     }
 
-    publicvoid show(Stock stock) {
+    public void show(Stock stock) {
         System.out.println("\n=== Información de la acción ===");
         System.out.println("Compañía : " + stock.getCompanyName());
         System.out.println("Símbolo  : "+ stock.getSymbol());
@@ -21,7 +21,7 @@ public class StockConsoleView {
         System.out.println("Cambio   : " + stock.getChange() + "%");
     }
 
-    publicvoid showError(String msg) {
+    public void showError(String msg) {
         System.out.println("\nERROR: " + msg);
     }
 }

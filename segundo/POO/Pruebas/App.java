@@ -24,7 +24,7 @@ import model.StockRepository;
 import view.StockConsoleView;
 
 public class App {
-    publicstatic void main(String[] args) {
+    public static void main(String[] args) {
 
         StockRepository repo = new StockRepository();
         StockConsoleView view = new StockConsoleView();
