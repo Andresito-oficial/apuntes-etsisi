@@ -1,0 +1,19 @@
+Problem_5:
+coste = 5
+tiempo = 0.0009207725524902344  seconds
+
+Problem_8:
+coste = 5
+tiempo = 0.002471446990966797	seconds
+
+Problem_12:
+coste = 6
+tiempo = 0.008989810943603516	seconds
+
+Problem_18:
+coste = 6 colores
+tiempo = 0.08164381980895996  seconds
+
+Problem_25:
+coste = 8 colores
+tiempo = 0.6213021278381348
