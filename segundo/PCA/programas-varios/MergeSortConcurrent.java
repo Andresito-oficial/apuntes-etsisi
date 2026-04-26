@@ -1,19 +1,36 @@
-import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Semaphore;
 
-public class MergeSortConcurrent {
-	private final List<Integer> ToSort;
+public class MergeSortConcurrent extends Thread {
+	private final List<Integer> ToMergeA;
+	private final List<Integer> ToMergeB;
+	private final List<Integer> ToOutput;
+	private MergeSortConcurrent dependencyA;
+	private MergeSortConcurrent dependencyB;
+	private Semaphore control;
 
-	public MergeSortConcurrent (List<Integer> input) {
-		ToSort = input;
-		System.err.println("Creando MergeSort con " + ToSort.size() + " elementos");
+	public MergeSortConcurrent (List<Integer> inputA, List<Integer> inputB, List<Integer> Output, MergeSortConcurrent depA, MergeSortConcurrent depB) {
+		ToMergeA = inputA;
+		ToMergeB = inputB;
+		ToOutput = Output;
+		dependencyA = depA;
+		dependencyB = depB;
 	}
 
-	List<Integer> merge ( List<Integer> a, List<Integer> b) {
-		final List<Integer> merged = new ArrayList<Integer>(a.size() + b.size());
-		//System.err.println("Mezclando : " + a.toString() + " con b: " + b.toString());
-		Integer currentA = a.removeLast();
-		Integer currentB = b.removeLast();
+	public MergeSortConcurrent (List<Integer> inputA, List<Integer> inputB, List<Integer> Output, MergeSortConcurrent depA, MergeSortConcurrent depB, Semaphore control) {
+		ToMergeA = inputA;
+		ToMergeB = inputB;
+		ToOutput = Output;
+		dependencyA = depA;
+		dependencyB = depB;
+		this.control = control;
+	}
+
+	void merge ( List<Integer> a, List<Integer> b, List<Integer> merged) {
+		//final List<Integer> merged = new ArrayList<Integer>(a.size() + b.size());
+		//System.out.println( this.getName() + " mezclando : " + (a == null ? "null" : a.toString()) + " con b: " + (b == null ? "null" : b.toString()));
+		Integer currentA = getLast(a);
+		Integer currentB = getLast(b);
 		while (!(currentA == null && currentB == null)) {
 			final Integer max = max(currentA, currentB);
 			merged.addFirst(max);
@@ -24,8 +41,8 @@ public class MergeSortConcurrent {
 				currentB = getLast(b);
 			}
 		}
-		//System.err.println("Mezclado : " + merged.toString());
-		return merged;
+		//System.out.println( this.getName() + " ha Mezclado : " + merged.toString());
+		//return merged;
 	}
 
 	Integer getLast (List<Integer> list) {
@@ -44,13 +61,23 @@ public class MergeSortConcurrent {
 		else { return b; }
 	}
 
-	List<Integer> sorted () {
-		if (ToSort.size() < 2) {
-			return ToSort;
+	@Override
+	public void run() {
+		try {
+			if (dependencyA != null) {
+				//System.err.println( this.getName() + " Esperando a " + dependencyA.getName());
+				dependencyA.join();
+			}
+			if (dependencyB != null) {
+				//System.err.println( this.getName() + " Esperando a " + dependencyB.getName());
+				dependencyB.join();
+			}
+			merge(ToMergeA, ToMergeB, ToOutput);
+			control.release();
+			//System.err.println( this.getName() + " ha terminado de mezclar y ha liberado un permiso");
+		} catch (Exception e) {
+				System.err.println( this.getName() + " ha sido interrumpido");
+				System.err.println("Error: " + e.getMessage());
 		}
-		final int divider = ToSort.size() / 2;
-		List<Integer> FirstHalf = new MergeSortConcurrent(new ArrayList<>(ToSort.subList(0, (divider)))).sorted();
-		List<Integer> SecondHalf = new MergeSortConcurrent(new ArrayList<>(ToSort.subList(divider, ToSort.size()))).sorted();
-		return merge(FirstHalf, SecondHalf);
 	}
 }

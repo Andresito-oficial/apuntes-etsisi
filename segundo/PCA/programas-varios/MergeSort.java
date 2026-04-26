@@ -12,8 +12,8 @@ public class MergeSort {
 	List<Integer> merge ( List<Integer> a, List<Integer> b) {
 		final List<Integer> merged = new ArrayList<Integer>(a.size() + b.size());
 		//System.err.println("Mezclando : " + a.toString() + " con b: " + b.toString());
-		Integer currentA = a.removeLast();
-		Integer currentB = b.removeLast();
+		Integer currentA = getLast(a);
+		Integer currentB = getLast(b);
 		while (!(currentA == null && currentB == null)) {
 			final Integer max = max(currentA, currentB);
 			merged.addFirst(max);
