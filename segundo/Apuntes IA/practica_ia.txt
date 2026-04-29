@@ -1,0 +1,6 @@
+Posibles heurísticas:
+
+
+número de colores x eso no hay forma de saberlo hasta que termina la ejecución
+
+

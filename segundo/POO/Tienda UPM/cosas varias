@@ -1,0 +1,53 @@
+private static void parseRemoveProduct ( String idText )
+    {
+        final int id = Integer.parseInt ( idText );
+        final Product toRemove = inventory.removeProduct ( id );
+        if ( toRemove == null )
+        {
+            System.err.println ( "Error: product with id " + id + " does not exist" );
+        }
+        else if ( ticket.removeProduct ( toRemove ) )
+        {
+            System.out.println ( ticket.print () );
+        }
+        System.out.println ( toRemove.toString () );
+        System.out.println ( " prod remove: ok" );
+    }
+
+public static void echo ( String text )
+    {
+        if ( text.isEmpty () )
+        {
+            System.err.println ( "Error: echo command requires text to echo" );
+        }
+        else
+        {
+            System.out.println ( "echo" + text );
+        }
+    }
+
+
+
+
+
+
+    public class HelpCommand
+{
+    public HelpCommand (){
+
+    }
+}
+
+public class EchoCommand ()
+{
+private final String message
+public EchoCommand (String message)
+{
+this.message = message;
+}
+
+
+}
+
+
+parser -> constructor -> main -> func exec

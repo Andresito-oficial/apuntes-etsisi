@@ -1,0 +1,780 @@
+<?xml version="1.0"?>
+<statgraphics_data>
+  <FORMAT>
+    <DECIMALSYMBOL>,</DECIMALSYMBOL>
+    <DATESEPARATOR>/</DATESEPARATOR>
+    <DATEORDER>DMY</DATEORDER>
+  </FORMAT>
+  <COLUMNS>
+    <C1 Name="número preferido" Comment="" Type="N" Width="16"/>
+    <C2 Name="tortilla" Comment="" Type="C" Width="18"/>
+    <C3 Name="libros 2025" Comment="" Type="N" Width="16"/>
+    <C4 Name="actividad física" Comment="" Type="C" Width="27"/>
+    <C5 Name="instrumento musical o cantar" Comment="" Type="C" Width="42"/>
+    <C6 Name="Amigo/a otro país" Comment="" Type="C" Width="46"/>
+    <C7 Name="Relación con compañer@s Uni" Comment="" Type="N" Width="27"/>
+    <C8 Name="UPM Conecta" Comment="" Type="C" Width="71"/>
+    <C9 Name="Mejorar tu entorno" Comment="" Type="C" Width="71"/>
+    <C10 Name="Experiencia UNI" Comment="" Type="N" Width="16"/>
+    <C11 Name="Tiempo llegar Uni" Comment="" Type="N" Width="17"/>
+    <C12 Name="Medio de transporte" Comment="" Type="C" Width="41"/>
+    <C13 Name="Confianza Mates" Comment="" Type="N" Width="16"/>
+    <C14 Name="Compromiso PyE" Comment="" Type="N" Width="16"/>
+    <C15 Name="Col_15" Comment="" Type="N" Width="13"/>
+    <C16 Name="Col_16" Comment="" Type="N" Width="13"/>
+    <C17 Name="Col_17" Comment="" Type="N" Width="13"/>
+    <C18 Name="Col_18" Comment="" Type="N" Width="13"/>
+    <C19 Name="Col_19" Comment="" Type="N" Width="13"/>
+    <C20 Name="Col_20" Comment="" Type="N" Width="13"/>
+  </COLUMNS>
+  <ROW>
+    <C1>8</C1>
+    <C2>Con cebolla</C2>
+    <C3>20</C3>
+    <C4>Voleibol</C4>
+    <C5>No</C5>
+    <C6>Emiratos Arabes, Venezuela</C6>
+    <C7>9</C7>
+    <C8>Torneo de Pokemon</C8>
+    <C10>7</C10>
+    <C11>40</C11>
+    <C12>Autobús</C12>
+    <C13>5</C13>
+    <C14>8</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>4</C3>
+    <C4>Fútbol</C4>
+    <C5>Ninguna</C5>
+    <C6>Venezuela</C6>
+    <C7>9</C7>
+    <C8>CodeBoost</C8>
+    <C9>Ser buena persona</C9>
+    <C10>7,5</C10>
+    <C11>60</C11>
+    <C12>Tren</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>0</C3>
+    <C4>boxeo, pesas, correr</C4>
+    <C5>canto en el coche</C5>
+    <C6>cubano americano</C6>
+    <C7>2</C7>
+    <C9>hago aromaterapia en mi casa</C9>
+    <C10>3</C10>
+    <C11>45</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>3</C13>
+    <C14>1</C14>
+  </ROW>
+  <ROW>
+    <C1>3</C1>
+    <C2>Con cebolla</C2>
+    <C3>30</C3>
+    <C4>Gimnasio (musculación y cardio)</C4>
+    <C5>no</C5>
+    <C6>Filipino, francés, Inglés, Irlandés, Australiano, Italiano, estadounid</C6>
+    <C7>8</C7>
+    <C9>Si</C9>
+    <C10>7</C10>
+    <C11>50</C11>
+    <C12>Metro</C12>
+    <C13>8</C13>
+    <C14>9</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Con cebolla</C2>
+    <C3>5</C3>
+    <C4>ninguna</C4>
+    <C6>si (Ucrania)</C6>
+    <C7>9</C7>
+    <C9>ayudar en lo que puedo</C9>
+    <C10>6</C10>
+    <C11>90</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>3</C13>
+    <C14>8</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>2</C3>
+    <C4>Gimnasio</C4>
+    <C5>no</C5>
+    <C6>Rumano</C6>
+    <C7>9</C7>
+    <C9>nose</C9>
+    <C10>7,68</C10>
+    <C11>30</C11>
+    <C12>Autobús</C12>
+    <C13>4</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>4</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>0</C3>
+    <C4>Ninguna</C4>
+    <C5>nope</C5>
+    <C6>Inglaterra</C6>
+    <C7>7</C7>
+    <C9>no de manera consciente</C9>
+    <C10>5</C10>
+    <C11>105</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>8</C13>
+    <C14>9</C14>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Con cebolla</C2>
+    <C3>1</C3>
+    <C4>Atletismo</C4>
+    <C5>No</C5>
+    <C6>Sudafricano</C6>
+    <C7>5</C7>
+    <C9>Si</C9>
+    <C10>6</C10>
+    <C11>90</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>7</C13>
+    <C14>8</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>1</C3>
+    <C4>Gimnasio</C4>
+    <C6>Cuba, Ecuador, Bangladesh</C6>
+    <C7>9,75</C7>
+    <C8>Python para ML</C8>
+    <C9>No sé</C9>
+    <C10>8</C10>
+    <C11>25</C11>
+    <C12>Metro</C12>
+    <C13>9</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>4</C1>
+    <C2>Con cebolla</C2>
+    <C3>1</C3>
+    <C4>Ninguna</C4>
+    <C5>No</C5>
+    <C6>Brasileño, latinoamericano, chino</C6>
+    <C7>9</C7>
+    <C8>Escritura creativa, redacción coherente, Lean Inception, Codeboost, Cy</C8>
+    <C10>7</C10>
+    <C11>45</C11>
+    <C12>Metro</C12>
+    <C13>6</C13>
+    <C14>7</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>6</C3>
+    <C4>Ninguna</C4>
+    <C5>Saxofón</C5>
+    <C6>China</C6>
+    <C7>8</C7>
+    <C8>Codebost</C8>
+    <C9>Preocuparme por ellos</C9>
+    <C10>8</C10>
+    <C11>120</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C2>Sin cebolla</C2>
+    <C3>4</C3>
+    <C4>Gimnasio</C4>
+    <C5>No</C5>
+    <C6>Uno chino y uno de africa</C6>
+    <C7>7</C7>
+    <C9>No</C9>
+    <C10>7</C10>
+    <C11>80</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>5</C13>
+    <C14>9</C14>
+  </ROW>
+  <ROW>
+    <C1>9</C1>
+    <C2>Sin cebolla</C2>
+    <C3>3</C3>
+    <C4>gimnasio  futbol y calistenia</C4>
+    <C5>canto</C5>
+    <C6>chino , moros y polakos</C6>
+    <C7>8</C7>
+    <C8>en todas , he organizado varias</C8>
+    <C9>si , escucho y animo</C9>
+    <C10>7</C10>
+    <C11>50</C11>
+    <C12>Metro</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>30</C3>
+    <C4>boxeo</C4>
+    <C5>guitarra electrica</C5>
+    <C6>rumania</C6>
+    <C7>8</C7>
+    <C8>si, la de hacer el brazo biónico y unas de placas base</C8>
+    <C10>9</C10>
+    <C11>15</C11>
+    <C12>Coche propio (vengo solo/a)</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>2</C1>
+    <C2>Sin cebolla</C2>
+    <C3>7</C3>
+    <C4>Muay thai, y gimnasio</C4>
+    <C5>Guitarra, batería, canto, bajo(toco el bajo en un grupo) y algo de pia</C5>
+    <C6>Estadounidense</C6>
+    <C7>7</C7>
+    <C8>Charlas de ciberseguridad</C8>
+    <C9>Voluntariado dando catequesis</C9>
+    <C10>7</C10>
+    <C11>55</C11>
+    <C12>Tren</C12>
+    <C13>6</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>0</C3>
+    <C4>Gimnasio</C4>
+    <C5>No</C5>
+    <C6>Peru, Chile, Etiopia</C6>
+    <C7>8</C7>
+    <C9>Si</C9>
+    <C10>7</C10>
+    <C11>35</C11>
+    <C12>Coche propio (vengo solo/a)</C12>
+    <C13>6</C13>
+    <C14>7</C14>
+  </ROW>
+  <ROW>
+    <C1>4</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>50</C3>
+    <C4>yoga</C4>
+    <C5>piano</C5>
+    <C6>Bangladesh</C6>
+    <C7>5</C7>
+    <C8>InstallFest de Linux</C8>
+    <C9>no</C9>
+    <C10>5</C10>
+    <C11>120</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>5</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>5</C1>
+    <C2>Con cebolla</C2>
+    <C3>0,2</C3>
+    <C4>Ninguna</C4>
+    <C5>Guitarra</C5>
+    <C6>Ecuador, Bulgaria, Marruecos, Honduras, Venezuela, Portugal</C6>
+    <C7>9</C7>
+    <C8>Charla de Ciberseguridad</C8>
+    <C9>Ayudar cuando puedo y defender mis ideales</C9>
+    <C10>7</C10>
+    <C11>60</C11>
+    <C12>Metro</C12>
+    <C13>6,5</C13>
+    <C14>9,5</C14>
+  </ROW>
+  <ROW>
+    <C2>Me gustan las dos</C2>
+    <C3>1</C3>
+    <C4>Si</C4>
+    <C5>Si</C5>
+    <C6>Brasil, Ecuador</C6>
+    <C7>10</C7>
+    <C8>Si Coodebost</C8>
+    <C9>Si</C9>
+    <C10>10</C10>
+    <C11>30</C11>
+    <C12>Autobús</C12>
+    <C13>7</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Sin cebolla</C2>
+    <C3>6</C3>
+    <C4>Gimnasio</C4>
+    <C5>No</C5>
+    <C6>Si</C6>
+    <C7>8</C7>
+    <C9>No entiendo</C9>
+    <C10>2</C10>
+    <C11>30</C11>
+    <C12>Autobús</C12>
+    <C13>6</C13>
+    <C14>6</C14>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Sin cebolla</C2>
+    <C3>0</C3>
+    <C4>ninguna</C4>
+    <C5>no</C5>
+    <C6>no</C6>
+    <C7>10</C7>
+    <C9>no</C9>
+    <C10>7,5</C10>
+    <C11>55</C11>
+    <C12>Tren</C12>
+    <C13>4</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>3</C3>
+    <C4>Fútbol sala, padel</C4>
+    <C5>No</C5>
+    <C6>Si. Ecuador, RD, Perú</C6>
+    <C7>8</C7>
+    <C9>Hacer lo que pienso que es mejor para mi entorno mas cercano, asi como</C9>
+    <C10>6</C10>
+    <C11>15</C11>
+    <C12>Andando</C12>
+    <C13>2</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Con cebolla</C2>
+    <C3>4</C3>
+    <C4>Baloncesto</C4>
+    <C5>Ninguno</C5>
+    <C6>Bolivia</C6>
+    <C7>7</C7>
+    <C9>No</C9>
+    <C10>5</C10>
+    <C11>30</C11>
+    <C12>Comparto coche con otras personas</C12>
+    <C13>7</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>2</C1>
+    <C2>Con cebolla</C2>
+    <C3>2</C3>
+    <C4>GYM, FUTBOL</C4>
+    <C5>NO</C5>
+    <C6>SI, INGLATERRA</C6>
+    <C7>8</C7>
+    <C8>SI, VISITA CAR</C8>
+    <C9>SI</C9>
+    <C10>5</C10>
+    <C11>40</C11>
+    <C12>Tren</C12>
+    <C13>7</C13>
+    <C14>7</C14>
+  </ROW>
+  <ROW>
+    <C1>5</C1>
+    <C2>Con cebolla</C2>
+    <C3>1</C3>
+    <C4>Tenista</C4>
+    <C5>La flauta</C5>
+    <C6>Brasileño</C6>
+    <C7>7</C7>
+    <C9>Vivo solo</C9>
+    <C10>7</C10>
+    <C11>25</C11>
+    <C12>Autobús</C12>
+    <C13>5</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C2>Me gustan las dos</C2>
+    <C3>3</C3>
+    <C4>No, aunque que quiero empezar</C4>
+    <C5>Ninguna</C5>
+    <C6>Si; alemanes, colombianos, argentinos etc</C6>
+    <C7>10</C7>
+    <C8>Si, en una charla introductoria a la ciberseguridad</C8>
+    <C9>Si, ayudo en lo que puedo</C9>
+    <C10>8</C10>
+    <C11>110</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>5</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C2>Me gustan las dos</C2>
+    <C3>25</C3>
+    <C4>Ninguna</C4>
+    <C5>Flauta travesera</C5>
+    <C6>Paraguay</C6>
+    <C7>9</C7>
+    <C8>Codeboost, mvp, chocolatada, primer empleo, torneo de mus, taller de t</C8>
+    <C9>Sí</C9>
+    <C10>9</C10>
+    <C11>60</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>7</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>0</C3>
+    <C4>Gym, baloncesto,  futbol, padel.</C4>
+    <C5>No</C5>
+    <C6>China, Suecia, Francia</C6>
+    <C7>9</C7>
+    <C9>Algo</C9>
+    <C10>7</C10>
+    <C11>35</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>3</C13>
+    <C14>8</C14>
+  </ROW>
+  <ROW>
+    <C2>Con cebolla</C2>
+    <C3>5</C3>
+    <C4>muay Thai</C4>
+    <C5>no pero la musica es mi gran pasión</C5>
+    <C6>sí, Guinea</C6>
+    <C7>3</C7>
+    <C9>a medias, trato de mejorar mi entorno pero sin hacer todo lo que está</C9>
+    <C10>2</C10>
+    <C11>20</C11>
+    <C12>Autobús</C12>
+    <C13>3</C13>
+    <C14>6</C14>
+  </ROW>
+  <ROW>
+    <C1>9</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>3</C3>
+    <C4>Gimnasio</C4>
+    <C5>No</C5>
+    <C6>Reino Unido</C6>
+    <C7>7</C7>
+    <C9>No</C9>
+    <C10>6</C10>
+    <C11>45</C11>
+    <C12>Andando</C12>
+    <C13>9</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>2</C1>
+    <C2>Con cebolla</C2>
+    <C3>4</C3>
+    <C4>Gimnasio</C4>
+    <C5>No</C5>
+    <C6>China, Colombia, Bolivia, Marruecos</C6>
+    <C7>8</C7>
+    <C8>Juegos de mesa, charlas IA</C8>
+    <C9>Si</C9>
+    <C10>7</C10>
+    <C11>40</C11>
+    <C12>Metro</C12>
+    <C13>4</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>2</C3>
+    <C4>Gym</C4>
+    <C5>Ninguno</C5>
+    <C6>Italia</C6>
+    <C7>9</C7>
+    <C8>Codeboost</C8>
+    <C9>si</C9>
+    <C10>8</C10>
+    <C11>70</C11>
+    <C12>Tren</C12>
+    <C13>6</C13>
+    <C14>7</C14>
+  </ROW>
+  <ROW>
+    <C2>Sin cebolla</C2>
+    <C3>2</C3>
+    <C4>baloncesto</C4>
+    <C5>solo en la ducha</C5>
+    <C6>no</C6>
+    <C7>10</C7>
+    <C8>CAR, IBM y charlas</C8>
+    <C9>doy catequesis</C9>
+    <C10>7</C10>
+    <C11>120</C11>
+    <C12>Tren</C12>
+    <C13>5</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>0</C1>
+    <C2>Con cebolla</C2>
+    <C3>10</C3>
+    <C4>Si</C4>
+    <C5>No</C5>
+    <C6>Ecuador</C6>
+    <C7>8</C7>
+    <C8>Code Boost</C8>
+    <C9>Estudio</C9>
+    <C10>5</C10>
+    <C11>40</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>10</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>4</C3>
+    <C4>Gimnasio</C4>
+    <C5>No</C5>
+    <C6>Irlandés</C6>
+    <C7>8</C7>
+    <C9>ayudo a mi familia</C9>
+    <C10>8</C10>
+    <C11>25</C11>
+    <C12>Coche propio (vengo solo/a)</C12>
+    <C13>7</C13>
+    <C14>9</C14>
+  </ROW>
+  <ROW>
+    <C2>Me gustan las dos</C2>
+    <C3>30</C3>
+    <C4>atletismo</C4>
+    <C5>piano</C5>
+    <C6>china, estadounidense, turco, colombiana</C6>
+    <C7>8</C7>
+    <C9>dono sangre</C9>
+    <C10>8</C10>
+    <C11>45</C11>
+    <C12>Autobús</C12>
+    <C13>0</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Con cebolla</C2>
+    <C3>0</C3>
+    <C4>Deporte</C4>
+    <C5>No</C5>
+    <C6>Armenia</C6>
+    <C7>9</C7>
+    <C9>Si</C9>
+    <C10>7</C10>
+    <C11>30</C11>
+    <C12>Autobús</C12>
+    <C13>1</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>9</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>12</C3>
+    <C4>Gimnasio y pádel</C4>
+    <C5>No</C5>
+    <C6>Sí. De Ecuador, Argentina, Estados Unidos</C6>
+    <C7>8</C7>
+    <C9>Sí, trabajar para intentar ayudar en casa, preocuparme por mis familia</C9>
+    <C10>7</C10>
+    <C11>30</C11>
+    <C12>Metro</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>78</C3>
+    <C4>Ninguna</C4>
+    <C6>No</C6>
+    <C9>Si</C9>
+    <C11>90</C11>
+    <C12>Autobús</C12>
+    <C13>7</C13>
+    <C14>9</C14>
+  </ROW>
+  <ROW>
+    <C1>3</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>8</C3>
+    <C4>Pesas</C4>
+    <C5>Piano</C5>
+    <C6>Colombia</C6>
+    <C7>10</C7>
+    <C9>no</C9>
+    <C10>7</C10>
+    <C11>60</C11>
+    <C12>Metro</C12>
+    <C13>10</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>9</C1>
+    <C2>Sin cebolla</C2>
+    <C3>5</C3>
+    <C4>Correr</C4>
+    <C5>Canto, Toco la batería y la guitarra</C5>
+    <C6>Si, Griego</C6>
+    <C7>10</C7>
+    <C9>Intento buscar problemas y darles solución mediante el software</C9>
+    <C10>8</C10>
+    <C11>80</C11>
+    <C12>Metro</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>2</C1>
+    <C2>Con cebolla</C2>
+    <C3>5</C3>
+    <C4>Calistemnia</C4>
+    <C5>Guitarra</C5>
+    <C6>Si, brasile</C6>
+  </ROW>
+  <ROW>
+    <C1>2</C1>
+    <C2>Con cebolla</C2>
+    <C3>0</C3>
+    <C4>Gimnasio y dardos</C4>
+    <C5>No</C5>
+    <C6>Peruano</C6>
+    <C7>10</C7>
+    <C9>Intento hacer actividades</C9>
+    <C10>8</C10>
+    <C11>100</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>6</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>2</C3>
+    <C4>Voy al ignacio (gimnasio)</C4>
+    <C5>No</C5>
+    <C6>Venezolanos, ecuatoriano, etc</C6>
+    <C7>9</C7>
+    <C8>Sí, codeboost y cybertalks entre otras</C8>
+    <C9>Nada en especial</C9>
+    <C10>9</C10>
+    <C11>15</C11>
+    <C12>Autobús</C12>
+    <C13>8</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C2>Me gustan las dos</C2>
+    <C3>1</C3>
+    <C4>Ninguna</C4>
+    <C5>Ninguna</C5>
+    <C6>Sáhara</C6>
+    <C7>8</C7>
+    <C9>Encontrar amigas</C9>
+    <C10>5</C10>
+    <C11>60</C11>
+    <C12>Metro</C12>
+    <C13>3</C13>
+    <C14>4</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>1</C3>
+    <C4>Ninguna</C4>
+    <C5>glockenspiel</C5>
+    <C6>Si, alemán</C6>
+    <C7>7</C7>
+    <C9>No</C9>
+    <C10>5</C10>
+    <C11>28</C11>
+    <C12>Coche propio (vengo solo/a)</C12>
+    <C13>4</C13>
+    <C14>6</C14>
+  </ROW>
+  <ROW>
+    <C1>2</C1>
+    <C2>Con cebolla</C2>
+    <C3>4</C3>
+    <C4>baile</C4>
+    <C5>tocaba la guitarra</C5>
+    <C6>Si, arabe, asiatico, latino</C6>
+    <C7>10</C7>
+    <C9>si</C9>
+    <C10>7</C10>
+    <C11>60</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>5</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>5</C1>
+    <C2>Con cebolla</C2>
+    <C3>6</C3>
+    <C4>natación</C4>
+    <C5>no</C5>
+    <C6>China, Argentina, Estados Unidos</C6>
+    <C7>8</C7>
+    <C8>sí: juegos mesas, charlas ia, película &quot;Talentos Ocultos&quot;, e</C8>
+    <C9>sí</C9>
+    <C10>7</C10>
+    <C11>20</C11>
+    <C12>Combino distintos medios de transporte público</C12>
+    <C13>5</C13>
+    <C14>10</C14>
+  </ROW>
+  <ROW>
+    <C1>8</C1>
+    <C2>Me gustan las dos</C2>
+    <C3>1</C3>
+    <C4>Boxeo</C4>
+    <C5>no</C5>
+    <C6>Perú</C6>
+    <C7>10</C7>
+    <C9>no</C9>
+    <C10>7</C10>
+    <C11>50</C11>
+    <C12>Metro</C12>
+    <C13>6</C13>
+    <C14>9</C14>
+  </ROW>
+  <ROW>
+    <C1>7</C1>
+    <C2>Con cebolla</C2>
+    <C3>2</C3>
+    <C4>Ninguna</C4>
+    <C5>No</C5>
+    <C6>China</C6>
+    <C7>8</C7>
+    <C9>No</C9>
+    <C10>7</C10>
+    <C11>30</C11>
+    <C12>Metro</C12>
+    <C13>5</C13>
+    <C14>5</C14>
+  </ROW>
+</statgraphics_data>

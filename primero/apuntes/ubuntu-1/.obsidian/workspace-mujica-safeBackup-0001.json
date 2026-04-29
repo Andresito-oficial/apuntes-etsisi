@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "c7c5ad2a9a29422f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5c36980dfc27123",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da83b089dff5b1c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Física/Física.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Física"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f80498675fafea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b32aef8765a0a14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40f25bd73ebaa360",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8ec8cf543091de84",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bbe066673c6d1c9b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "e8928ad9db387e5a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Lógica y matemática discreta/Drawing 2024-10-17 09.10.57.excalidraw.md"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 362.5
+  },
+  "right": {
+    "id": "d783bf41602bb511",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5300ae9d0ed3a85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "381f8e912462316b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a129b94cf98dda5e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "23af96a94d8cfd3f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "38cc128921407ed6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fundamentos de seguridad/Drawing 2025-02-28 11.24.18.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Drawing 2025-02-28 11.24.18.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "fit:Fit Sync": false
+    }
+  },
+  "active": "40f25bd73ebaa360",
+  "lastOpenFiles": [
+    "Física/práctica 3 regla trapecios.odg",
+    "Física/practica1_matlab mov en E.odg",
+    "Física/práctica 3 regla trapecios.pdf",
+    "Física/Practica3.m",
+    "Física/practica2_matlab sup equip_2_metodos_mod.odg",
+    "Física/Practica2-3-3.jpg",
+    "Física/Practica2-3-2.jpg",
+    "Física/Practica2-3-1.jpg",
+    "Física/Practica2-2-2.jpg",
+    "Física/Practica2-1-2.jpg",
+    "Física/Practica2-2.jpg",
+    "Física/Practica2-1.jpg",
+    "Física/practica2_matlab sup equip_2_metodos_mod.pdf",
+    "Física/Practica2.m",
+    "Física/Practica2",
+    "Física/Practica1-parte1.ofig",
+    "Física/Practica1-posición.ofig",
+    "Física/x.txt",
+    "Excalidraw/Drawing 2025-03-29 11.33.46.excalidraw.md",
+    "Física/Física.md",
+    "Fundamentos de seguridad/Drawing 2025-02-28 11.24.18.excalidraw.md",
+    "Ed/Drawing 2025-03-23 17.14.09.excalidraw.md",
+    "Álgebra/Drawing 2025-03-13 19.08.36.excalidraw.md",
+    "Fundamentos de seguridad/Fórmulas.md",
+    "Fundamentos de seguridad/Fundamentos de seguridad.md",
+    "Álgebra/Drawing 2025-01-31 09.38.18.excalidraw.md",
+    "Física/Drawing 2025-01-30 13.33.19.excalidraw.md",
+    "Fundamentos de computadores/Fundamentos de computadores.md",
+    "Álgebra/Drawing 2025-03-11 17.32.17.excalidraw.md",
+    "Estructura de computadores/Drawing 2025-03-17 12.00.42.excalidraw.md",
+    "Ed/Drawing 2025-03-04 12.20.10.excalidraw.md",
+    "Estructura de computadores/Memoria Práctica 2.md",
+    "Estructura de computadores/Drawing 2025-03-12 09.09.29.excalidraw.md",
+    "Álgebra/Drawing 2025-02-19 16.20.18.excalidraw.md",
+    "Álgebra/Drawing 2025-03-02 11.59.06.excalidraw.md",
+    "Estructura de computadores/Estructura de computadores.md",
+    "Untitled.md",
+    "Álgebra/Álgebra.md",
+    "Ed/Ed.md",
+    "Ed/Untitled.md",
+    "ubuntu.md",
+    "AES/Drawing 2025-02-13 09.29.30.excalidraw.md",
+    "AES/AES.md",
+    "Pasted Image 20250122100633_674.png",
+    "Pasted Image 20250121215417_346.png",
+    "Pasted Image 20250121205116_075.png",
+    "Untitled.canvas",
+    "Sin título.canvas"
+  ]
+}

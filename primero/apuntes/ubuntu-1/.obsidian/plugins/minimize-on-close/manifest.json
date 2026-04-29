@@ -1,0 +1,11 @@
+{
+  "id": "minimize-on-close",
+  "name": "Minimize on Close",
+  "version": "1.3.3",
+  "minAppVersion": "1.5.0",
+  "description": "Minimizes the app window to an icon after closing the last open pane",
+  "author": "Andrea Alberti",
+  "authorUrl": "https://www.linkedin.com/in/dr-andrea-alberti/",
+  "fundingUrl": "https://buymeacoffee.com/alberti",
+  "isDesktopOnly": true
+}

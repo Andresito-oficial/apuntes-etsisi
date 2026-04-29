@@ -1,0 +1,14 @@
+¿Cómo se van a contabilizar los elementos de cada categoría?
+¿Cómo se va ha reiniciar el ticket sin reiniciar la app?
+¿Cómo modificar un producto sin la mierda de setters?
+¿Cómo eliminar prouctos con algo parecido a un replace all?
+¿Por qué no puede unificarse la cantidad de cada producto?, sería más fácil para calcular el precio si se tiene un contador para eso
+¿Por qué hay que llamar echo a un print?
+¿Hago un help como el de terminal (en la línea de help poner "shows this help message with all the commands available. for more info about a command type " help <command name> "" ?
+¿Hago el exit con "System.exit(0)" o con "Runtime.getRuntime().exit(0)"?
+¿Por qué no se puede añadir un producto con una interfaz constructora diferente para cada categoría aprovechando los argumentos pasados al comando "prod add"?
+¿Por qué hay que permitir la existencia de productos duplicados si tienen distinto ID?, ¿No es mas sencillo que se compruebe primero si ya existe un producto con ese nombre y si existe saque un error por StdErr?
+¿Hay que mostrar los prints de los productos con "System.out.print("<producto>")"?
+¿Por qué hay que mostrar "<comando>:ok" en lugar de "<comando> finished with exit code 0" cuando termina un comando?
+¿Por qué no se puede poner los descuentos según categoría en un sitio aparte para hacer después el cálculo del precio final directamente?
+¿Hace falta tener usuario en la app para crear el ticket?

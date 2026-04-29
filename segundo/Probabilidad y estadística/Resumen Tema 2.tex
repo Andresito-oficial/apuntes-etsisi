@@ -1,0 +1,48 @@
+\documentclass{pye-resumen}
+\title{Resumen Tema 2}
+\author{López Hernández Andrés}
+\begin{document}
+	\maketitle
+	\section{Definiciones}
+	\begin{itemize}
+		\item Fenómenos deterministas: siempre que se	realizan bajo las mismas condiciones se obtienen los mismo resultados.
+		\item Fenómenos aleatorios: no es posible predecir el resultado (incertidumbre)
+		\item Probabilidad $\approx$ medida de la posibilidad de que se dé un resultado determinado
+		\item Experimento aleatorio: no es posible predecir el resultado pero se conocen todos los posibles resultados; el experimento se puede repetir	todas las veces que se desee.
+		\item Espacio muestral asociado a un experimento aleatorio es el conjunto de todos los posibles resultados del experimento (llamados sucesos elementales). Se denota por $E$.
+		\item Suceso compuesto es el formado por varios sucesos elementales.
+		\item Suceso seguro es el suceso que se verifica siempre. Se denota por $E$.
+		\item Suceso imposible es el que no se verifica nunca. Se denota por $\emptyset$
+		\item Espacio de sucesos es el conjunto formado por todos los sucesos compuestos incluido el suceso imposible. Se denota por $P(E)$. Si $E$ tiene $n$ elementos $P(E)$ tiene $2^n$ sucesos.
+		\item Sucesos incompatibles si $A \cap B = \emptyset$
+	\end{itemize}
+		
+	\section{Operaciones con sucesos}
+		Sean $A,B \in P(E):$
+		\begin{itemize}
+			\item Suceso diferencia: $A$ y no $B$ $\Rightarrow A-B = A\cap\bar{B}$
+			\item $A\subseteq B$ si siempre que ocurre $A$ también ocurre $B$. Si esto ocurre, entonces $A\cap B = A$ y $A \cup B = B$
+			\item $\overline{A\cup B} = \bar{A} \cap \bar{B} $
+			\item $\overline{A\cap B} = \bar{A} \cup \bar{B}$
+		\end{itemize}
+	\section{Axiomas de la probabilidad}
+	Sea $S$ un espacio de sucesos asociado a un experimento con espacio muestral $E$.
+	La aplicación $P:E\rightarrow R$ es una probabilidad si verifica que:
+		\begin{itemize}
+			\item $P(A)\geq 0, \forall A \in S$
+			\item $P(E)=1$
+			\item Si $\left\{A_i \right\rbrace  \subset S, i \in I$ son sucesos incompatibles dos a dos, $A_i \cap A_j = \emptyset , \forall i \neq j$, entonces $P\left( \underset{i \in I}{\cup} A_i \right) = \underset{i \in I}{\sum} P\left(A_i \right)$
+			\item $A \subset B \Rightarrow P(A) \leq P(B)$
+			\item $0 \leq P(A) \leq 1$
+			\item $P(A) = 1 - P\left( \bar{A} \right)$
+			\item $P \left( \emptyset \right) = 0$
+			\item $P\left( A \cup B \right) = P(A) + P(B) - P\left( A \cap B \right)$
+			\item $P\left( A_1 \cup A_2 \cup ... \cup A_n \right) = P\left(A_1 \right) + P\left(A_2 \right) + ... + P\left(A_n \right) - \underset{i \neq j}{\sum} P\left( A_i \cap A_j \right) + \underset{i \neq j \neq k}{\sum} P\left(A_i \cap A_j \cap A_k \right) - ... + (-1)^{n+1}P\left(A_i \cap ... \cap A_n \right)$
+			\item $P(B) = \frac{Nº\, de\, casos\, faborables\, a\, B}{Nº\, total\, de\, casos\, posibles\, al\, realizar\, el\, experimento}$
+			\item Probabilidad de $A$ condicionada por $B$ es $P\left( \frac{A}{B} \right) = \frac{P\left(A \cap B \right)}{P(B)} $
+			\item $P(A\cap B) = P\left(\frac{A}{B} \right)P(B)$
+			\item $A$ y $B$ son independientes si $P\left(\frac{A}{B} \right) = P(A)$
+			
+		\end{itemize}
+	
+\end{document}

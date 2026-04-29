@@ -1,0 +1,11 @@
+sed -e 's/^\(..\)\(.*\)$/\2\1/' dias
+sed -e 's/^\(.\).\.*(.\)$/\2\1/' dias
+sed -e 's/^\(.*\b\).*\b\(.*\)$/\2\1/'
+
+for in in 'cat dias'; do 
+comandos
+done
+
+for i in $*; i toma todos los valores pasados como parámetros.
+
+ejercicio de examen: 

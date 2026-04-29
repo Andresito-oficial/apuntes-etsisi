@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class ContarNumeroDeQuijotes
+{
+	static final Scanner sc = new Scanner ();
+	for (palabra: texto) { if (palabra.equals("Quijote") { repeticiones += 1; } }
+}
+
+//comando test;

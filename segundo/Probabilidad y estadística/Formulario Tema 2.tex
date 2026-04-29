@@ -1,0 +1,21 @@
+\documentclass{pye-resumen}
+\title{Formulario Tema 2}
+\author{López Hernández Andrés}
+\begin{document}
+	\maketitle
+	\section{Operaciones con sucesos}
+	Sean $A,B \in P(E):$
+	\begin{itemize}
+		\item Suceso diferencia: $A$ y no $B$ $\Rightarrow A-B = A\cap\bar{B}$
+		\item $A\subseteq B$ si siempre que ocurre $A$ también ocurre $B$. Si esto ocurre, entonces $A\cap B = A$ y $A \cup B = B$
+		\item $\overline{A\cup B} = \bar{A} \cap \bar{B} $
+		\item $\overline{A\cap B} = \bar{A} \cup \bar{B}$
+		\item $P(B) = \frac{Nº de casos faborables a B}{Nº total de casos posibles al realizar un experimento}$
+		\item Probabilidad de $A$ condicionada por $B$ es $P\left( \frac{A}{B} \right) = \frac{P\left(A \cap B \right)}{P(B)} $
+		\item $P(A\cap B) = P\left(\frac{A}{B} \right)P(B)$
+		\item Probabilidad total: $P(B) = \sum_{i=1}^{n} P\left(\frac{B}{A_i} \right)P\left( A_i \right) = P\left( \frac{B}{A_i} \right)P\left(A_i\right) + ... + P\left(\frac{B}{A_n}\right)P\left(A_n\right)$
+		\item Teorema de Bayes: $P\left(\frac{A_k}{B}\right) = \frac{ P\left(\frac{B}{A_k}\right)P\left(A_k\right) } { \sum_{i=1}^{n} P\left(\frac{B}{A_i}\right) P\left(A_1\right) } = \left(\frac{P\left(A_k \cap B\right)}{P(B)}\right) $
+	\end{itemize}
+	
+	
+\end{document}

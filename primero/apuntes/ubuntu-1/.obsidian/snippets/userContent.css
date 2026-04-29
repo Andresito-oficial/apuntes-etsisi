@@ -1,0 +1,37 @@
+@obsidian {
+	.theme-light {
+	body {
+		background-image: url(file:///home/andres/OneDriveAndres/primero/apuntes/ubuntu/.obsidian/snippets/01.jpg); !important;
+		background-attachment: fixed; !important;
+		background-size: cover; !important;
+		background-position: center; !important;
+		background-repeat: no-repeat; !important;
+	}
+	.workspace-leaf-content .view-content {
+  z-index: 0;
+}
+.workspace-leaf-content .view-content::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  background-image: url("file:///home/andres/OneDriveAndres/primero/apuntes/ubuntu/.obsidian/snippets/01.jpg");
+	}
+	.theme-dark {
+	body {
+		background-image: url("file:///home/andres/OneDriveAndres/primero/apuntes/ubuntu/.obsidian/snippets/02.jpg"); !important;
+		background-attachment:fixed; !important;
+		background-size: cover; !important;
+		background-position: center; !important;
+		background-repeat: no-repeat; !important;
+	}
+.workspace-leaf-content .view-content {
+  z-index: 0;
+}
+.workspace-leaf-content .view-content::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  background-image: url("file:///home/andres/OneDriveAndres/primero/apuntes/ubuntu/.obsidian/snippets/02.jpg");
+	}
+	}
+}

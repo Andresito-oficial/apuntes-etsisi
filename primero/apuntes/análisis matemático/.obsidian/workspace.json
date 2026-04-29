@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "85b144a941ae0711",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8e57e26b394b39c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8ce327a1ba10267",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "enunciado-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "enunciado-1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "170829e7fb54d633",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3efb6d12c7ae59f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "504cb64f14c6ee58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "efdf0be74ed7777f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9da1181f9c36b1ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd47f4f436d780d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "957cf44fba470e13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "442c4e99ee3cf882",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "enunciado-1.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for enunciado-1"
+            }
+          },
+          {
+            "id": "77ec5b9cfc54f805",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "enunciado-1.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from enunciado-1"
+            }
+          },
+          {
+            "id": "746b93f23fb1f557",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "18a1a743ab75bc76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "enunciado-1.pdf"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of enunciado-1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "d8ce327a1ba10267",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-11-30 20.30.17.excalidraw.md",
+    "enunciado-1.pdf",
+    "Excalidraw/Drawing 2024-10-06 12.19.26.excalidraw.md",
+    "Welcome.md",
+    "Excalidraw"
+  ]
+}

@@ -1,0 +1,1 @@
+1) El circuito es un sumador-restador en complemento a 1 
