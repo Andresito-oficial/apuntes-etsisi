@@ -1,0 +1,8 @@
+Tipo test y demás: repasar todo más, en especial el tema 2.
+Asientos: 
+1. era (100) capital social no (102) capital.
+2. era a (400) Proveedores, no el 401
+3. era el 430, no el 431; cantidades desplazadas
+4. invertidos
+5. perfecto
+

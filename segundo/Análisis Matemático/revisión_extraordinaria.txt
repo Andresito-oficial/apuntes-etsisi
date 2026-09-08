@@ -1,0 +1,5 @@
+Cuestión 1: olvido de una multiplicación
+Cuestión 3: detalles nimios, confundí F(x) y F'(x) y algún despiste más de este estilo
+Cuestión 4: error en comparación de órdenes de magnitud aque ha lastrado todo.
+Cuestión 5; me olvidé la suma en el primere apartado, intercambié la n y la ka en el sumatorio del 2º apartado.
+Cuestión 6: 1ª me confundo en el criterio del cociente. 2ª no llego a ninguna conclisón y hago una simplificación rara. 3ª perfecto

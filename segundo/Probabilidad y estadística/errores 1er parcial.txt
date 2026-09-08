@@ -1,0 +1,10 @@
+Test: 3 preguntas mal, 1 de ellas de regresiva y las otras 2 eran raras (preguntass 4 y 5 de las respuesta)
+Problema 1: como si estuviera en blanco (no entinedo que hice)
+Problema 2: 
+En el apartado a) confundí f_B con la F_B (penalizado pero no demasiado)
+En el apartado b) se arrastra el error anterior + un epequeño error al sacar la \beta de la binomial de la esperanza de vida de las del tipo a. Yo puse \beta = 35 pero era \beta = \frac{1}{35} .
+En el apartado c) todo perfecto.
+En el apartado b) se me ha penalizado por no "formalizar" ni usar el Teorema de Bayes, pasa que yo no creo que era necesario puesto que no realicé ni un solo cálculo y me limité a razonar en base a los datos del problema y a los resultados calculados en el apartado anterior.
+
+Problema 3:
+En el apartado a) se me ha penalizado por que confundí una binomial (no muy clara) con  una Poisson ya que la función solo podía tomar valores enteros.
