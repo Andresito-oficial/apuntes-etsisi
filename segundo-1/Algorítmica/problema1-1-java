@@ -1,0 +1,13 @@
+int maximo (int[] lista)
+{
+	int max = Integer.MIN_VALUE;
+	for (item : lista)
+	{
+		if (max < item)
+		{
+			maxx = item;
+		}
+	}
+	return max;
+}
+	
